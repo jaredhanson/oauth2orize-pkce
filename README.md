@@ -1,5 +1,12 @@
 # oauth2orize-pkce
 
+[![Version](https://img.shields.io/npm/v/oauth2orize-pkce.svg?label=version)](https://www.npmjs.com/package/oauth2orize-pkce)
+[![Build](https://img.shields.io/travis/jaredhanson/oauth2orize-pkce.svg)](https://travis-ci.org/jaredhanson/oauth2orize-pkce)
+[![Quality](https://img.shields.io/codeclimate/github/jaredhanson/oauth2orize-pkce.svg?label=quality)](https://codeclimate.com/github/jaredhanson/oauth2orize-pkce)
+[![Coverage](https://img.shields.io/coveralls/jaredhanson/oauth2orize-pkce.svg)](https://coveralls.io/r/jaredhanson/oauth2orize-pkce)
+[![Dependencies](https://img.shields.io/david/jaredhanson/oauth2orize-pkce.svg)](https://david-dm.org/jaredhanson/oauth2orize-pkce)
+
+
 [OAuth2orize](https://github.com/jaredhanson/oauth2orize) extension providing
 support for [Proof Key for Code Exchange](https://tools.ietf.org/html/rfc7636).
 
