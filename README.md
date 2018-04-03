@@ -1,5 +1,9 @@
 # oauth2orize-pkce
 
+[OAuth2orize](https://github.com/jaredhanson/oauth2orize) extension providing
+support for [Proof Key for Code Exchange](https://tools.ietf.org/html/rfc7636).
+
+Status:
 [![Version](https://img.shields.io/npm/v/oauth2orize-pkce.svg?label=version)](https://www.npmjs.com/package/oauth2orize-pkce)
 [![Build](https://img.shields.io/travis/jaredhanson/oauth2orize-pkce.svg)](https://travis-ci.org/jaredhanson/oauth2orize-pkce)
 [![Quality](https://img.shields.io/codeclimate/github/jaredhanson/oauth2orize-pkce.svg?label=quality)](https://codeclimate.com/github/jaredhanson/oauth2orize-pkce)
@@ -7,8 +11,12 @@
 [![Dependencies](https://img.shields.io/david/jaredhanson/oauth2orize-pkce.svg)](https://david-dm.org/jaredhanson/oauth2orize-pkce)
 
 
-[OAuth2orize](https://github.com/jaredhanson/oauth2orize) extension providing
-support for [Proof Key for Code Exchange](https://tools.ietf.org/html/rfc7636).
+## Sponsorship
+
+OAuth2orize is open source software.  Ongoing development is made possible by
+generous contributions from [individuals and corporations](https://github.com/jaredhanson/oauth2orize/blob/master/SPONSORS.md).
+To learn more about how you can help keep this project financially sustainable,
+please visit Jared Hanson's page on [Patreon](https://www.patreon.com/jaredhanson).
 
 ## Install
 
@@ -31,6 +39,4 @@ server.grant(require('oauth2orize-pkce').extensions());
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2015-2017 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
-
+Copyright (c) 2015-2018 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
