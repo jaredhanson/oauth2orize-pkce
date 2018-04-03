@@ -4,7 +4,7 @@
 
 The test suite is located in the `test/` directory.  All new features are
 expected to have corresponding test cases with complete code coverage.  Patches
-that increse test coverage are happily accepted.
+that increase test coverage are happily accepted.
 
 Ensure that the test suite passes by executing:
 
