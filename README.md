@@ -3,12 +3,6 @@
 [OAuth2orize](https://github.com/jaredhanson/oauth2orize) extension providing
 support for [Proof Key for Code Exchange](https://tools.ietf.org/html/rfc7636).
 
----
-
-<p align="center"><a href="//pluralsight.pxf.io/c/1312135/448522/7490">Start a 10-day free trial at Pluralsight - Over 5,000 Courses Available</a></p>
-
----
-
 Status:
 [![Version](https://img.shields.io/npm/v/oauth2orize-pkce.svg?label=version)](https://www.npmjs.com/package/oauth2orize-pkce)
 [![Build](https://img.shields.io/travis/jaredhanson/oauth2orize-pkce.svg)](https://travis-ci.org/jaredhanson/oauth2orize-pkce)
