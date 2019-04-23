@@ -1,22 +1,21 @@
 {
-  "name": "oauth2orize-pkce",
-  "version": "0.1.2",
+  "name": "@passport-next/oauth2orize-pkce",
+  "version": "1.0.0",
   "description": "Extensions to support Proof Key for Code Exchange with OAuth2orize.",
   "keywords": [
     "oauth2",
     "pkce"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Adam Hathcock",
+    "email": "adam@hathcock.co.uk"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/oauth2orize-pkce.git"
+    "url": "git://github.com/passport-next/oauth2orize-pkce.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/oauth2orize-pkce/issues"
+    "url": "http://github.com/passport-next/oauth2orize-pkce/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -28,13 +27,13 @@
   "main": "./lib",
   "dependencies": {},
   "devDependencies": {
-    "make-node": "0.3.x",
-    "mocha": "2.x.x",
-    "chai": "2.x.x",
+    "make-node": "0.4.x",
+    "mocha": "5.x.x",
+    "chai": "4.x.x",
     "chai-oauth2orize-grant": "0.3.x"
   },
   "engines": {
-    "node": "*"
+    "node": ">= 6"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
