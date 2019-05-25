@@ -28,13 +28,6 @@ code exchange, register support for this extension with a `Server` instance:
 server.grant(require('oauth2orize-pkce').extensions());
 ```
 
-## Sponsorship
-
-OAuth2orize is open source software.  Ongoing development is made possible by
-generous contributions from [individuals and corporations](https://github.com/jaredhanson/oauth2orize/blob/master/SPONSORS.md).
-To learn more about how you can help keep this project financially sustainable,
-please visit Jared Hanson's page on [Patreon](https://www.patreon.com/jaredhanson).
-
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
